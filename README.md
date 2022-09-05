@@ -15,7 +15,6 @@
 - [Technologies Used](#technologies-used)
 - [Instilation](#Instilation)
 - [Testing](#Testing)
-- [Walkthrough Video](#walkthrough-video)
 - [Insomnia Screenshot](#insomnia-screenshot)
 - [License](#License)
 - [Contribution](#Contribution)
@@ -84,7 +83,6 @@ The Social Network API is a web based application that uses a MongoDB database s
 ### /api/thoughts/:thoughtId/reactions/:reactionId
 * DELETE remove a reaction by the reactionId
 
-## Walkthrough Video  
 
 ## Insomnia Screenshot  
 ![Desktop Screenshot 2022 09 04 - 20 12 56 80](https://user-images.githubusercontent.com/104174101/188342067-810e7cb4-1440-451b-88b8-f39afb561291.png)
