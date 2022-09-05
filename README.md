@@ -11,7 +11,15 @@
 
 
 ## Table of Contents
--[Description](#description)
+- [Description](#description)
+- [Technologies Used](#technologies-used)
+- [Instilation](#Instilation)
+- [Testing](#Testing)
+- [Walkthrough Video](#walkthrough-video)
+- [Insomnia Screenshot](#insomnia-screenshot)
+- [License](#License)
+- [Contribution](#Contribution)
+- [Questions](#Questions)
 
 
 ## Description  
@@ -31,5 +39,30 @@ The Social Network API is a web based application that uses a MongoDB database s
 * Open Insomnia Core to test all API routes  
 
 ## Testing  
+/api/users
+* GET all users
+* POST a new user
+* // example data
+{
+    "username": "lernantino",
+    "email": "lernantino@gmail.com"
+}  
 
-##
+
+/api/users/:userId
+
+
+
+## Walkthrough Video  
+
+## Insomnia Screenshot  
+
+## License 
+This project is not under any license 
+
+## Contribution 
+Created By Trevor Pratt
+
+## Questions 
+Trevor Pratt, [Portfolio](https://tpratt57.github.io/Challenge-2-/)
+[GitHub](https://github.com/tpratt57)
