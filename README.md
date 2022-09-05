@@ -1,3 +1,4 @@
+# Social-Network-API  
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/tpratt57/e-commerce-back-end-OMR" />
 <p align="center">
@@ -5,7 +6,6 @@
     <img src="https://img.shields.io/badge/Javascript-yellow" />
     <img src="https://img.shields.io/badge/express-orange" />
 </p>  
-# Social-Network-API  
 ## Description  
 The Social Network API is a web based application that uses a MongoDB database shell allowing it to handle large amounts of amorphous data and an Express.js server to route and connect. This application's inteded use is to allow users to share their thoughs and feeling on various subject matter and entertain discourse from other members.  
 
