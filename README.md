@@ -39,7 +39,7 @@ The Social Network API is a web based application that uses a MongoDB database s
 * Open Insomnia Core to test all API routes  
 
 ## Testing  
-/api/users
+# /api/users
 * GET all users
 * POST a new user
 * // example data
@@ -49,9 +49,40 @@ The Social Network API is a web based application that uses a MongoDB database s
 }  
 
 
-/api/users/:userId
+# /api/users/:userid
+* GET a single user by it's _id
+* PUT to update a user by it's _id
+* DELETE to remove a user by it's _id
 
+# /api/users/:userId/friends/:friendId
+* POST to add a new friend to a user's friends list
+* DELETE to remove a new friend from a user's friend list
 
+# /api/thoughts
+* GET to retrieve all thoughts
+* POST to create a new thought
+* // example data
+{
+"thoughtText": "Here's a cool thought...",
+"username": "lernantino",
+"userId": "5edff358a0fcb779aa7b118b"
+}
+
+# /api/thoughts/:thoughtId
+* GET to get a single thought by its _id
+* PUT to update a thought by its _id
+* DELETE to remove a thought by its _id
+
+# /api/thoughts/:thoughtId/reactions
+* POST to create a reaction
+// example data
+{
+"reactionBody":"Hell Yeah!!",
+"username":"lernantino"
+}
+
+# /api/thoughts/:thoughtId/reactions/:reactionId
+* DELETE remove a reaction by the reactionId
 
 ## Walkthrough Video  
 
